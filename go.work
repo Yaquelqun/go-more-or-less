@@ -1,4 +1,4 @@
 go 1.19
 
 use ./more-or-less
-// use ./game-state
+use ./game-state
