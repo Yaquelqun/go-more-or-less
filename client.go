@@ -27,7 +27,7 @@ Loop:
 		case "Guess too high":
 			fmt.Printf("%d is too high, try again\n", game.currentGuess)
 		case "Guess too low":
-			fmt.Printf("%d is too high, try again\n", game.currentGuess)
+			fmt.Printf("%d is too low, try again\n", game.currentGuess)
 		case "Finished":
 			fmt.Printf("The number was indeed %d ! Well Played !!!\n", game.currentGuess)
 			break Loop
